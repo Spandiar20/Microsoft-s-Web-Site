@@ -141,3 +141,31 @@
     height: 2.5rem;
     margin-left: 3rem;
 }
+
+.topHeader {
+    background-image: url('/Images/Highlight-Surface-Laptop-Studio-2-CONS-M001-1\ VP5-1920x600.webp');
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+
+}
+
+.thumbnail {
+    background-color: yellow;
+    width: 3rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    font-family: 'Segoe UI';
+}
+
+.topHeader--summary {
+    font-family: 'Segoe UI';
+    color: aliceblue;
+
+}
+
+.topHeader--summary--topic {
+    
+}
