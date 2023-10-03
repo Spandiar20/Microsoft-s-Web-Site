@@ -197,3 +197,26 @@
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
 }
+
+.topHeader--imageScroller {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.imgScroller{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15rem;
+}
+
+.scrollIndicator {
+    display: flex;
+    align-items: center;
+}
+
+.pauseBtn {
+    width: 2rem;
+    height: 2rem;
+}
