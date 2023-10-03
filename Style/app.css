@@ -70,7 +70,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
 
     justify-content: space-between;
 }
@@ -79,7 +79,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 13rem;
+    margin-left: 0rem;
 }
 
 .nav--mainLinks--links {
@@ -128,4 +128,16 @@
     -moz-transition: all 0.08s ease-out;
     -ms-transition: all 0.08s ease-out;
     -o-transition: all 0.08s ease-out;
+}
+
+.dropdownImg {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+}
+
+.navLogo {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 3rem;
 }
