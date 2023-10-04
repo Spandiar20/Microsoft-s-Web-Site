@@ -256,3 +256,29 @@
     cursor: pointer;
     transition: all 0.5 ease-in;
 }
+
+.topMain {
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+}
+
+.topMain--leadLinks {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 1.1rem;
+    font-family: 'Segoe UI';
+    gap: 2rem;
+}
+
+.leadLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.leadLink img{
+    width: 2rem;
+}
