@@ -416,3 +416,47 @@
 .Icon {
     width: 2rem;
 }
+
+footer {
+    font-family: 'Segoe UI';
+}
+
+.mainFooter {
+    margin-top: 6rem;
+    padding-block: 2.5rem;
+    background-color: #f2f2f2;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.mainFooter--column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.columnHead {
+    color: #616161;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.columnItem {
+    font-size: 11px;
+    line-height: 16px;
+    color: gray;
+    cursor: pointer;
+}
+
+.columnItem:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.firstColumn {
+    margin-right: 3rem;
+}
