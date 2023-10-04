@@ -67,7 +67,7 @@
 }
 
 .container {
-    margin-inline: 10%;
+    margin-inline: 5%;
 }
 
 .navBar {
@@ -337,4 +337,48 @@
 .contentCard--link--icon {
     width: 100%;
     height: 1rem;
+}
+
+.bingContent {
+    background-image: url(/Images/Highlight-Multi-Canvas-Bing-AI-No-Text\ VP5-1596x600.jpg);
+    width: 100%;
+    height: 31rem;
+    margin-top: 5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.bingContent--summary {
+    width: 26rem;
+    color: white;
+    font-family: 'Segoe UI';
+    margin-left: 7rem;
+}
+
+.bingContent--summary--title {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.bingContent--summary--description {
+    
+}
+
+.bingContent--summary--btn {
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #0067b8;
+    border: none;
+    font-weight: 550;
+    font-size: 1rem;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+
+    margin-top: 2rem;
+    cursor: pointer;
 }
