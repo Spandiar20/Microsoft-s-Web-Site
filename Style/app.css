@@ -67,7 +67,7 @@
 }
 
 .container {
-    margin-inline: 5%;
+    margin-inline: 6%;
 }
 
 .navBar {
@@ -381,4 +381,24 @@
 
     margin-top: 2rem;
     cursor: pointer;
+}
+
+.businessCardContent {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.businessCardContent--title {
+    font-family: 'Segoe UI';
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.businessCardContent--contentCards {
+    display: flex;
+}
+
+.businessContentCard--title {
+    font-size: 1.8rem;
 }
