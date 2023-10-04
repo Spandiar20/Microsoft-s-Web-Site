@@ -402,3 +402,17 @@
 .businessContentCard--title {
     font-size: 1.8rem;
 }
+
+.topFooter {
+    font-family: 'Segoe UI';
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+.Icon {
+    width: 2rem;
+}
