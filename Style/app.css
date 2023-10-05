@@ -281,10 +281,15 @@ header {
     margin-top: 9rem;
 }
 
+.topMain {
+    display: flex;
+    justify-content: center;
+}
+
 .topMain--leadLinks {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
+    flex-wrap: wrap;
     font-size: 1.1rem;
     font-family: 'Segoe UI';
     gap: 2rem;
@@ -310,7 +315,7 @@ header {
 
 .contentCard {
     flex: 0 0 25%;
-    max-width: 25%;
+    min-width: 200px;
     font-family: 'Segoe UI';
 
     padding: 0.75rem;
@@ -403,6 +408,13 @@ header {
     flex-direction: column;
 }
 
+.businessCardContent--contentCards {
+
+    flex-wrap: wrap;
+    flex-basis: 100%;
+
+}
+
 .businessCardContent--title {
     font-family: 'Segoe UI';
     font-size: 2.4rem;
@@ -450,12 +462,14 @@ footer {
     display: flex;
     justify-content: space-evenly;
     width: 90%;
+    flex-wrap: wrap;
 }
 
 .mainFooter--column {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding: 1rem;
 }
 
 .columnHead {
@@ -494,9 +508,48 @@ footer {
     .nav--secondaryLinks {
         margin-right: 0;
     }
+
+    .topHeader {
+        height: 80%;
+    }
+
+    .topHeader--content {
+        background-color: #fff;
+        color: black;
+        position: relative;
+        top: 20rem;
+        left: 0;
+        width: 95%;
+        vertical-align: center;
+        margin: 0 auto;
+        padding: 2rem;
+        box-shadow: 0px  2px 16px rgba(0, 0, 0, 0.129);
+    }
+
+    .topHeader--summary {
+
+        color: black;
+    }
+
+    .topHeader--summary--topic {
+        font-size: 1.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .topHeader--summary--paragraph {
+        width: 100%;
+    }
+
+    .topHeader--imageScroller {
+        display: none;
+    }
 }
 
 @media only screen and (max-width : 768px) {
+
+    .topFooter {
+        width: 75%;
+    }
 
     .responsive2--nav--hidden{
         display: none;
@@ -514,5 +567,10 @@ footer {
         align-items: center;
         justify-content: space-between;
     }
+
+        .topHeader--summary--topic {
+            font-size: 1.7rem;
+            margin-bottom: 0.5rem;
+        }
 
 }
