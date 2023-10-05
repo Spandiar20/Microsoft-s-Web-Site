@@ -314,7 +314,6 @@ header {
 }
 
 .contentCard {
-    flex: 0 0 25%;
     min-width: 200px;
     font-family: 'Segoe UI';
 
@@ -498,11 +497,19 @@ footer {
     .Responsive1--hidden {
         display: none;
     }
+
+    .topFooter {
+        width: 30%;
+    }
 }
 
 @media only screen and (max-width : 1200px) {
     .navLogo {
         margin-left: 0;
+    }
+
+    .topFooter {
+        width: 50%;
     }
 
     .nav--secondaryLinks {
@@ -545,7 +552,7 @@ footer {
     }
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 868px) {
 
     .topFooter {
         width: 75%;
@@ -573,4 +580,14 @@ footer {
             margin-bottom: 0.5rem;
         }
 
+}
+
+@media only screen and (max-width : 480px) {
+    .navBar {
+        padding: 0 2rem;
+    }
+    
+    .dropdownImg {
+        margin: 0.2rem;
+    }
 }
