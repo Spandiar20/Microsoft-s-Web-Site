@@ -12,7 +12,47 @@
 
     <nav class="navBar">
 
-        <section class="navLogo navLogo">
+        <section class="responsive2--nav">
+
+            <div>
+
+                <svg class="dropdownImg" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                    <path
+                        d="M 3 9 A 1.0001 1.0001 0 1 0 3 11 L 47 11 A 1.0001 1.0001 0 1 0 47 9 L 3 9 z M 3 24 A 1.0001 1.0001 0 1 0 3 26 L 47 26 A 1.0001 1.0001 0 1 0 47 24 L 3 24 z M 3 39 A 1.0001 1.0001 0 1 0 3 41 L 47 41 A 1.0001 1.0001 0 1 0 47 39 L 3 39 z">
+                    </path>
+                </svg>
+                
+                <svg class="dropdownImg" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                    viewBox="0 0 30 30">
+                    <path
+                        d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z">
+                    </path>
+                </svg>
+
+            </div>
+
+            <svg class="navLogo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                <path fill="#ff5722" d="M6 6H22V22H6z" transform="rotate(-180 14 14)"></path>
+                <path fill="#4caf50" d="M26 6H42V22H26z" transform="rotate(-180 34 14)"></path>
+                <path fill="#ffc107" d="M26 26H42V42H26z" transform="rotate(-180 34 34)"></path>
+                <path fill="#03a9f4" d="M6 26H22V42H6z" transform="rotate(-180 14 34)"></path>
+            </svg>
+
+            <div>
+
+                <img class="dropdownImg"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA5UlEQVR4nN2UsQ7BUBSGPwsGAxEziweQiGdQEpNX8QzSd5B0EJ7AKGG3moytCSPBQKXJGZpI6tzmVsKX3O075z+3PS38C08glONlEfCIBdyAGhmxiAWlPaukgJ6FgG1SQA7YiRiFaSkDR6kbfJJHIkaPS4srNWuNXAEusllNhd8AruK3tRN5MpGrcOfiTjGgJUUnoJjgdWTy6AZ1DNkYbM7YtHkVOCgaR5PPgIJpwEQaLGV1rVKS38VduUXG5IFzyq9YzVD5DsK0AZnTB/ZAADgWvDeC2LV9C973Axwp9oGuBe+HeQGdhY4nafPkOQAAAABJRU5ErkJggg==">
+
+
+                    <img class="dropdownImg profileIcon"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADxElEQVR4nO2ay29NURTGf6X0SgW96jESnXmF/gcGEiqeNUPNSE08gph5jDGSSPwdKEGC1iPq3Yl3Rx4TYqY0xZXFt5Oduueexz7n9hJfcpLbrr3XXvvstdZe+9sH/uPfRRnYDJwE+oDnwCdgVI/9fiaZtdkEtNEgKAE7gCvAd6CS8vkGXAZ6gJaJmMA04CDw3jPqK3ANOKKVWaw3PkVPm/5nsqPAdfVx/d8BB/Ry6oJ1wLBnwH1gJzAzg65ZwC7ggafvNbCWAmFv6qw34ENgdY76u4DHnv4zRazOfBluA3wG9gCT8x6E3zr3ASPeas/LS3mHlruirLOM4rEceKExX8mGIMzxFN4D2qkf2oBbGntYXpEJJc+d7gCtGfXcBm5m7NsK3PXcLFPMnPXcyTa7rIbb74Ea8jjM9rzCEkDqFOsCO21MjDc8rTwqZlwCsOyWeLNz+4Rlp0bBfi/4E7nYIW+fmFxwHKTp1ww8kW02qZooeWVHms0ui7tk6bdWtr2Nq816vAzRiGjyMum2Wg2vqpHVTo2KXtl4KapBWWX115QFYMg+kaV/m843Y1F2btZMrRSnDvER0v+GbN1YTXhKQjtPNDqOy9YT1YR9tWbZYOiWreeqCV9KaKe4tKjHPuJjqWw1XuAPfJTQapu0qNc+4tAuWz9QBaMSTqXx0eLxBIVNJM5dQtN17ERCXIsUZXtouo51rZBgr4U8DE8V7BckNAYwC9K6TIiLdddKv25DNPIsKeYGvPnx7X1dQRuiK1GMAUyCNcAPnV9CcVi6ViVs3y9bN0QVY65oNAYwDotFDNixOBTrpWtRgrZlr2icEdXosmZqNGYUHK9bFJbExOlu2XixlpLtamRcbDV0SG5LWxQGNMaCiIPVI8m3xh1136mhxcB4TBIhsZLisFJjmNFR7M6bJNcQB9T4UUH8blY0A0OybW+SDiWP6zVCOc/SIg1ujxvPveAXaS6FHFsxInKsqB26Fm5643UCXzKwO79wxnsDofVXKJH+SraczqKgJFqoohyflcQOwXRgUDYMhtwzzlFh5q4V7O96oaw4cddxwRc+Hd7SmputoHh0emNaVb4wL8XzPDcbEfdq6TBvNCs7ffHcKU0xmThmXAKoiFDO6/a1SZvdkKf/dNF3713esjvWvjfjVwxl1U6u7KjIlfK8LY5dnf1ixZ0Bo6rBjungs1Rpe6qe2bo02qI2/R5P4MqOvRP1BUSLWPFLOgKk/YRjTMTg1omaQDXM1EHHTm3ndff40fuoxn4/1fH0hNpGnif+g78cPwHmrk8IHHgpkwAAAABJRU5ErkJggg==">
+
+
+            </div>
+
+        </section>
+
+        <section class="navLogo responsive2--nav--hidden">
             <svg class="navLogo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
                 <path fill="#ff5722" d="M6 6H22V22H6z" transform="rotate(-180 14 14)"></path>
                 <path fill="#4caf50" d="M26 6H42V22H26z" transform="rotate(-180 34 14)"></path>
@@ -21,7 +61,7 @@
             </svg>
         </section>
 
-        <section class="nav--mainLinks">
+        <section class="nav--mainLinks responsive2--nav--hidden">
 
             <a class="nav--mainLinks--links">Microsoft 365</a>
             <a class="nav--mainLinks--links">Teams</a>
@@ -35,7 +75,7 @@
         </section>
 
         <section class="nav--secondaryLinks">
-            <a href="" class="nav--secondaryLinks--links">
+            <a href="" class="nav--secondaryLinks--links responsive2--nav--hidden">
 
                 <div class="navLink--txt">All Microsoft</div>
 
@@ -45,9 +85,9 @@
 
             </a>
 
-            <a href="" class="nav--secondaryLinks--links">
+            <a href="" class="nav--secondaryLinks--links responsive2--nav--hidden">
 
-                <div class="navLink--txt">Search</div>
+                <div class="navLink--txt Responsive1--hidden">Search</div>
                 
                 <svg class="dropdownImg" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30">
                     <path
@@ -57,44 +97,50 @@
 
             </a>
 
-            <a href="" class="nav--secondaryLinks--links">
+            <a href="" class="nav--secondaryLinks--links responsive2--nav--hidden">
 
-                <div class="navLink--txt">Cart</div>
+                <div class="navLink--txt Responsive1--hidden">Cart</div>
                 
                 <img class="dropdownImg"
                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA5UlEQVR4nN2UsQ7BUBSGPwsGAxEziweQiGdQEpNX8QzSd5B0EJ7AKGG3moytCSPBQKXJGZpI6tzmVsKX3O075z+3PS38C08glONlEfCIBdyAGhmxiAWlPaukgJ6FgG1SQA7YiRiFaSkDR6kbfJJHIkaPS4srNWuNXAEusllNhd8AruK3tRN5MpGrcOfiTjGgJUUnoJjgdWTy6AZ1DNkYbM7YtHkVOCgaR5PPgIJpwEQaLGV1rVKS38VduUXG5IFzyq9YzVD5DsK0AZnTB/ZAADgWvDeC2LV9C973Axwp9oGuBe+HeQGdhY4nafPkOQAAAABJRU5ErkJggg==">
             </a>
 
-            <a href="" class="nav--secondaryLinks--links">
+            <a href="" class="nav--secondaryLinks--links responsive2--nav--hidden">
 
-                <div class="navLink--txt">Sign in</div>
+                <div class="navLink--txt Responsive1--hidden">Sign in</div>
                 
-                <!-- <img src="" alt="" class="dropdownImg"> -->
+                <img class="dropdownImg profileIcon"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADxElEQVR4nO2ay29NURTGf6X0SgW96jESnXmF/gcGEiqeNUPNSE08gph5jDGSSPwdKEGC1iPq3Yl3Rx4TYqY0xZXFt5Oduueexz7n9hJfcpLbrr3XXvvstdZe+9sH/uPfRRnYDJwE+oDnwCdgVI/9fiaZtdkEtNEgKAE7gCvAd6CS8vkGXAZ6gJaJmMA04CDw3jPqK3ANOKKVWaw3PkVPm/5nsqPAdfVx/d8BB/Ry6oJ1wLBnwH1gJzAzg65ZwC7ggafvNbCWAmFv6qw34ENgdY76u4DHnv4zRazOfBluA3wG9gCT8x6E3zr3ASPeas/LS3mHlruirLOM4rEceKExX8mGIMzxFN4D2qkf2oBbGntYXpEJJc+d7gCtGfXcBm5m7NsK3PXcLFPMnPXcyTa7rIbb74Ea8jjM9rzCEkDqFOsCO21MjDc8rTwqZlwCsOyWeLNz+4Rlp0bBfi/4E7nYIW+fmFxwHKTp1ww8kW02qZooeWVHms0ui7tk6bdWtr2Nq816vAzRiGjyMum2Wg2vqpHVTo2KXtl4KapBWWX115QFYMg+kaV/m843Y1F2btZMrRSnDvER0v+GbN1YTXhKQjtPNDqOy9YT1YR9tWbZYOiWreeqCV9KaKe4tKjHPuJjqWw1XuAPfJTQapu0qNc+4tAuWz9QBaMSTqXx0eLxBIVNJM5dQtN17ERCXIsUZXtouo51rZBgr4U8DE8V7BckNAYwC9K6TIiLdddKv25DNPIsKeYGvPnx7X1dQRuiK1GMAUyCNcAPnV9CcVi6ViVs3y9bN0QVY65oNAYwDotFDNixOBTrpWtRgrZlr2icEdXosmZqNGYUHK9bFJbExOlu2XixlpLtamRcbDV0SG5LWxQGNMaCiIPVI8m3xh1136mhxcB4TBIhsZLisFJjmNFR7M6bJNcQB9T4UUH8blY0A0OybW+SDiWP6zVCOc/SIg1ujxvPveAXaS6FHFsxInKsqB26Fm5643UCXzKwO79wxnsDofVXKJH+SraczqKgJFqoohyflcQOwXRgUDYMhtwzzlFh5q4V7O96oaw4cddxwRc+Hd7SmputoHh0emNaVb4wL8XzPDcbEfdq6TBvNCs7ffHcKU0xmThmXAKoiFDO6/a1SZvdkKf/dNF3713esjvWvjfjVwxl1U6u7KjIlfK8LY5dnf1ixZ0Bo6rBjungs1Rpe6qe2bo02qI2/R5P4MqOvRP1BUSLWPFLOgKk/YRjTMTg1omaQDXM1EHHTm3ndff40fuoxn4/1fH0hNpGnif+g78cPwHmrk8IHHgpkwAAAABJRU5ErkJggg==">
 
             </a>
         </section>
 
     </nav>
 
-    <header class="topHeader">
-        <section class="topHeader--content">
+    <header>
 
-            <div class="thumbnail">New</div>
-            
-            <div class="topHeader--summary">
-            
-                <h1 class="topHeader--summary--topic">Surface Laptop Studio 2</h1>
-            
-                <p class="topHeader--summary--paragraph">Cutting-edge design meets incredible performance in this versatile laptop
-                    for creativity and entertainment.</p>
-            
-            </div>
-            
-            <button class="topHeader--shopBtn">Shop now</button>
-
+        <section class="topHeader">
+            <section class="topHeader--content">
+        
+                <div class="thumbnail">New</div>
+        
+                <div class="topHeader--summary">
+        
+                    <h1 class="topHeader--summary--topic">Surface Laptop Studio 2</h1>
+        
+                    <p class="topHeader--summary--paragraph">Cutting-edge design meets incredible performance in this versatile
+                        laptop
+                        for creativity and entertainment.</p>
+        
+                </div>
+        
+                <button class="topHeader--shopBtn">Shop now</button>
+        
+            </section>
+        
+        
         </section>
 
-        
     </header>
 
     <section class="topHeader--imageScroller">
